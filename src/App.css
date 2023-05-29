@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 
 .div-name {
@@ -11,4 +12,24 @@
   width: 50%;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+}
+
+.div-card {
+  margin-top: 100px;
+  border: 1px solid black;
+  height: 300px;
+  width: 200px;
+  border-radius: 9px;
+  box-shadow: 3px 3px 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.div-card p {
+  font-style: italic;
+  font-size: larger;
+  font-weight: 600;
 }

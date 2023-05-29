@@ -1,7 +1,7 @@
 
 function Header() {
     const nome = 'jimy'
-    const lastName = 'schild'
+    const lastName = 'Schild'
     return (
         <div className="div-name">
             <h2 className="nome-estilo">Me chamo {nome} {lastName}</h2>
