@@ -1,8 +1,11 @@
+
 function Header() {
     const nome = 'jimy'
     const lastName = 'schild'
     return (
-        <h2>Me chamo {nome} {lastName}</h2>
+        <div className="div-name">
+            <h2 className="nome-estilo">Me chamo {nome} {lastName}</h2>
+        </div>
     )
 
 
