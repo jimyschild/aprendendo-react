@@ -7,18 +7,23 @@ import './App.css';
 function App() {
 
   return <>
-    <h1>Olá Mundo</h1>
-    <Header />
-    <Idade anos={25} />
-    <InfCard nome='Jimy Schild' idade={25} ciadade='Santa Cruz' sexo='Homem' />
-    <div className='lista'>
-      <h2>Estudando Atualmente</h2>
-      <ul className='list-tec'>
-        {TecList.map((Element) => (
-          <li>{Element}</li>
-        ))}
-      </ul>
+    <header className='header'>
+      <h1>Olá Mundo</h1>
+      <Header />
+      <Idade anos={25} />
+    </header>
+    <div className='container'>
+      <InfCard nome='Jimy Schild' idade={25} ciadade='Santa Cruz' sexo='Homem' />
+      <div className='lista'>
+        <h2>Estudando Atualmente</h2>
+        <ul className='list-tec'>
+          {TecList.map((Element) => (
+            <li>{Element}</li>
+          ))}
+        </ul>
+      </div>
     </div>
+
 
   </>
 }
