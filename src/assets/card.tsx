@@ -16,7 +16,7 @@ function InfCard(user: Infos) {
             <p>Nome: {nome}</p>
             <p>Idade: {idade}</p>
             <p>Cidade: {cidade}</p>
-            <p>Sexo:{sexo}</p>
+            <p>Sexo: {sexo}</p>
         </div>
 
     )

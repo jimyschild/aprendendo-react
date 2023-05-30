@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #root {
   background-color: #808080;
   display: flex;
@@ -26,6 +32,12 @@
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
+  transition: 1s ease-in-out;
+}
+
+.div-card:hover {
+
+  transform: rotateY(180deg);
 }
 
 .div-card p {
